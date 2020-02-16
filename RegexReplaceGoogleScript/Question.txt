@@ -1,0 +1,21 @@
+The first script can now do the following:
+https://script.google.com/d/1hmsWqpRkaj0hFgAfGMBMLZAsBfPfxbumfQhTO8lxiE4uEqRze-K3Xuy3/edit?usp=sharing
+
+
+1.Automatically save the attached image of the email sent by Gmail in a specific folder of Google Drive.
+
+2. Get text by OCR from images in a specific folder in Google Drive.
+
+3. Replace specific words in the text with hyperlinks.
+
+4. Automatically send a sentence containing a hyperlink by Gmail.
+
+But when I try to replace the words Google and Go, the short word Go takes precedence and "Google" becomes "Go" ogle. Also, if a sentence contains Go more than once, only the first Go is replaced.
+
+
+I created a second script to solve this problem, but it timed out.
+https://script.google.com/d/13UL8dCE6I99Xt7QPFL-Tz0tnWxTNe6wYEoHY2NeKA431Ozu06gRp_5fj/edit?usp=sharing
+
+The test function works fine. However, it will time out if I try to replace the email image.
+
+Modify this second script to not time out, or create a new script that can do the same
